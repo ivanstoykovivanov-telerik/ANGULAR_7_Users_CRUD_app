@@ -7,7 +7,8 @@ import { UsersComponent } from './components/users/users.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { FormsModule} from '@angular/Forms';
 import { HttpClientModule} from '@angular/common/http';
-import { PostsComponent } from './components/posts/posts.component'; 
+import { PostsComponent } from './components/posts/posts.component';
+import { PostFormComponent } from './components/post-form/post-form.component'; 
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { PostsComponent } from './components/posts/posts.component';
     UserComponent,
     UsersComponent,
     NavbarComponent,
-    PostsComponent
+    PostsComponent,
+    PostFormComponent
   ],
   imports: [
     BrowserModule, 
